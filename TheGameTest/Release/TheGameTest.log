@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\users\vladyslav.vintskovs\documents\visual studio 2017\projects\thegametest\thegametest\main.cpp(10): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating code
+  All 12 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  TheGameTest.vcxproj -> C:\Users\vladyslav.vintskovs\Documents\Visual Studio 2017\Projects\TheGameTest\Release\TheGameTest.exe

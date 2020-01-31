@@ -1,0 +1,3 @@
+﻿  main.cpp
+c:\users\vladyslav.vintskovs\documents\visual studio 2017\projects\thegametest\thegametest\main.cpp(10): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  TheGameTest.vcxproj -> C:\Users\vladyslav.vintskovs\Documents\Visual Studio 2017\Projects\TheGameTest\Debug\TheGameTest.exe
