@@ -9,12 +9,10 @@ using namespace std;
 
 const int rows = 10;
 const int cols = 10;
-const int rowss = 10;
-const int colss = 10;
 int sapper[rows][cols];
-int fields[rowss][colss];
+int fields[rows][cols];
 
-void sapField()
+void GenerateField()
 {
 	int count = 0;
 	srand(time(0));																			// "zerno" dlya randoma
@@ -72,7 +70,7 @@ void sapField()
 //}
 int main()
 {
-	sapField();
+	GenerateField();
 	//field();
 	sf::RenderWindow window(sf::VideoMode(420, 420), "Mine Sweeper the Game");				// sozdanie okna
 	
@@ -104,7 +102,7 @@ int main()
 		{
 			for (int j = 0; j < cols; j++)
 			{
-				sf::Vector2f position(i % 10 * 40 + 10.f, j % 10 * 40 + 10.f);
+				sf::Vector2f position(i  * 40 + 10.f, j  * 40 + 10.f);
 				
 				
 				if (sapper[j][i] == 1)
