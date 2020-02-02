@@ -9,6 +9,7 @@ using namespace std;
 
 const int rows = 10;
 const int cols = 10;
+
 int sapper[rows][cols];
 int fields[rows][cols];
 
